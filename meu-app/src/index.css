@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+
+:root {
+  --corPrimaria: #D4FF58;
+  --corSecundaria: #FA824C;
+  --corBG-principal: black;
+  --corBG-secundario: #F6F8FF;
+  --corAlerta: #A7333F;
+
+  --fontePrimaira: "Figtree", sans-serif;
+  --fontDestaques: "Stack Sans Text", sans-serif;
+
+  
+}
