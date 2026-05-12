@@ -7,22 +7,26 @@
 }
 
 .inputLabel{
+    font-family: var(--fontePrimaria);
     font-size: 14px;
     font-weight: 600;
     color: var(--corPrimaria);
+    margin-left: 10px;
 }
 
 .input{
     background-color: transparent;
     border: none;
     border-bottom: 2px solid var(--corCinza-stroke);
-    padding: 14px 16px;
+    padding: 8px 8px;
     outline: none;
     transition: 0.3s;
+    color: white;
 }
 
 .input::placeholder{
     color: var(--corPlancholder);
+    font-family: var(--fontePrimaria);
 }
 
 .input:focus{
@@ -33,5 +37,20 @@
 .erro-message{
     color: var(--corAlerta);
     font-size: 13px;
+}
+
+
+
+/*Tamanho*/
+.pequeno{
+    width: 20%;
+}
+
+.medio{
+    width: 50%;
+}
+
+.grande{
+    width: 100%;
 }
 

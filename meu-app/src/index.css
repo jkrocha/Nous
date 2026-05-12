@@ -12,7 +12,11 @@
   --corPlancholder:  #B7B7B7;
   --corCinza-stroke: #414141;
 
-  --fontePrimaira: "Figtree", sans-serif;
+  --fontePrimaria: "Figtree", sans-serif;
   --fontDestaques: "Stack Sans Text", sans-serif;
 
+}
+
+body { 
+  background-color: #000000;
 }

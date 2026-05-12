@@ -1,6 +1,6 @@
-import './Input.css'
+import "./Input.css"
 
-function Input ({type, size, label, showLabel, error, disabled}) {
+function Input({type, size, label, showLabel, error, disabled, placeholder}) {
     return(
         <div className='inputGrupo'>
             {/*Mostrar etiqueta */}
@@ -11,7 +11,7 @@ function Input ({type, size, label, showLabel, error, disabled}) {
             )}
 
             {/*Configuração input*/}
-            <input className={`input ${error ? 'input-error' : ''} input ${size} input ${color}`} 
+            <input className={`input ${error ? 'input-error' : ''} input ${size}`} 
             type={type}
             placeholder={placeholder}
             disabled={disabled}
