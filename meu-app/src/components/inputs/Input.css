@@ -1,0 +1,37 @@
+.inputGrupo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 300px;
+}
+
+.inputLabel{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--corPrimaria);
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--corCinza-stroke);
+    padding: 14px 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input::placeholder{
+    color: var(--corPlancholder);
+}
+
+.input:focus{
+    border-bottom-color: var(--corPrimaria);
+    color: white;
+}
+
+.erro-message{
+    color: var(--corAlerta);
+    font-size: 13px;
+}
+
